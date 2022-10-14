@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    margin-top: 10px;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h4 {
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+body {
+    background-image: url("../../imagenes/dynamic-quiz.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(172, 169, 169);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.titulo {
+    margin-left: 15px;
+    margin-top: 60px
+}
+
+.miniContainer {
+    border-radius: 20px;
+    background-color: gray;
+    text-decoration: none;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    text-align: center;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cssPagina/adminPanel.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <title>DashBoard - Dynamic Quiz</title>
+</head>
+
+<body>
+    <style>
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .c-example-vr {
+            flex-shrink: 100%;
+            width: 60rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+
+    <main class="d-flex flex-nowrap">
+        <h1 class="visually-hidden">Sidebars examples</h1>
+
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <span class="fs-4">Dynamic Quiz</span>
+            </a>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="./editarDatos.html" class="nav-link text-white">
+                        Edit User Data
+                    </a>
+                </li>
+                <li>
+                    <a href="./consulProfes.html" class="nav-link text-white">
+                        Manage Teachers
+                    </a>
+                </li>
+                <li>
+                    <a href="./consulEST copy.html" class="nav-link text-white">
+                        Consult Students
+                    </a>
+                </li>
+                <li>
+                    <a href="../../index.html" class="nav-link text-white">
+                        Log Out
+                    </a>
+                </li>
+            </ul>
+            <hr>
+        </div>
+        <div class="b-example-divider b-example-vr"></div>
+        <div class="container c-example-vr">
+            <h1 class="titulo">Welcome, Steven Monroe</h1>
+            <div class="miniContainer">
+                <h4>You have 5 notifications! Go check out in <a href="#">Inbox</a></h4>
+            </div>
+            <table class="table table-borderless">
+                <tbody>
+                    <tr>
+                        <a href="./editarEst.html" class="btn btn-secondary"
+                            style="margin-left: 25px; margin-top: 5px;">View Audit
+                            Logs</a>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="container">
+                <div class="panelAdmin" style="margin-top: 153px">
+                    <h1>Administrator Area</h1>
+                    <br>
+                    <ul>
+                        <li><a href="#" class="btn btn-secondary" style="margin-bottom: 10px;">Manage Users</a></li>
+                        <li><a href="#" class="btn btn-secondary" style="margin-bottom: 10px;">Create User Account</a>
+                        </li>
+                        <li><a href="#" class="btn btn-secondary" style="margin-bottom: 10px;">Create Teacher's
+                                Forum</a></li>
+                        <li><a href="#" class="btn btn-secondary" style="margin-bottom: 10px;">Manage Exams</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="b-example-divider b-example-vr"></div>
+    </main>
+
+</body>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+</html>
